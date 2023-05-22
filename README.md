@@ -5,6 +5,7 @@ Main purpose:
 Allows user to make a list of ToDo tasks, check and uncheck them depending on the completion status. 
 
 Planned functions for the future:
+- Delete checklist item
 - Multiple ToDo lists
 - urgent status
 - calendar
