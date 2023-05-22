@@ -10,3 +10,5 @@ Planned functions for the future:
 - urgent status
 - calendar
 
+## How to run program?
+Download and run `main.py`
