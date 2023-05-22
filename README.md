@@ -1,4 +1,4 @@
-# to_do_list
+# NoteSide
 A simple to-do list software using python, PySimpleGui, and CI/CD with Docker
 
 Main purpose:
