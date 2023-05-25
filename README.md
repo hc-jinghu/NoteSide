@@ -22,3 +22,4 @@ From Docker:
  - Run command `docker-compose up`
  - After you shutdown the program, run command `xhost -localhost`
 
+## Running X11 GUI apps on macOS [reference ]([url](https://gist.github.com/paul-krohn/e45f96181b1cf5e536325d1bdee6c949))
