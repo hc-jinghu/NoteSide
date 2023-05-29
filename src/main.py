@@ -1,13 +1,12 @@
 # main program of NoteSide
 
-import PySimpleGUI as sg
-# from todo_list import todo_list as list
 
-listLayout = [
-    [sg.Input(key = "-INPUT-"), sg.Button("ADD", key="-ADD-")],
-    [sg.TabGroup([[sg.Tab("ToDo", [], key="-TASK_VIEW-")]], expand_x=True, key="-TABGROUP-")]
-]
-window = sg.Window("NoteSide", listLayout, use_default_focus=False, font="15")
+import PySimpleGUI as sg
+from task_list import task_list as t_list
+
+new_list = t_list()
+
+window = sg.Window("NoteSide", new_list.layout, use_default_focus=False, font="15")
 
 while True:
     event, values = window.read()
@@ -17,7 +16,10 @@ while True:
     if event == "-ADD-":
         task = values["-INPUT-"]
         if task != "":
+            new_list.addTsk(task)
+            new_list.print_list()
             window.extend_layout(window["-TASK_VIEW-"], [[sg.Checkbox(task)]])
+            window["-ERRORMSG-"].update("Task cannot be empty")
 
 window.close()
 
