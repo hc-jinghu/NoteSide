@@ -1,5 +1,5 @@
 # NoteSide
-A simple to-do list software using python, PySimpleGui, and Docker
+A simple to-do list program using Python3 with OOP, PySimpleGui, and Docker
 
 Main purpose:
 Allows user to make a list of ToDo tasks, check and uncheck them depending on the completion status. 

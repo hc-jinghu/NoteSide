@@ -5,7 +5,7 @@ import PySimpleGUI as sg
 from task import task
 
 # task_list layout in PySimpleGUI
-class task_list():
+class task_list:
     layout = [
         [sg.Input(key = "-INPUT-"), sg.Button("ADD", key="-ADD-")],
         [sg.Text('', key="-ERRORMSG-")],
