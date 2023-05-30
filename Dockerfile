@@ -1,9 +1,9 @@
 FROM python:3.11.3
 
-COPY src /app
+COPY *.py /app/
 
 WORKDIR /app
 
 RUN pip3 install PySimpleGUI
 
-CMD ["python3", "main.py"]
+CMD ["python3", "__init__.py"]

@@ -19,6 +19,7 @@ while True:
             new_list.addTsk(task)
             window["-ERRORMSG-"].update("")
             window.extend_layout(window["-TASK_VIEW-"], [[sg.Checkbox(task)]])
+            window["-INPUT-"].update('')
         else:
             window["-ERRORMSG-"].update("Task cannot be empty")
 
