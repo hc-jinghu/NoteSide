@@ -1,5 +1,5 @@
 # NoteSide
-A simple to-do list program using Python3 with OOP, PySimpleGui, and Docker
+A simple to-do list program using Python3 with OOP, PySimpleGui, and CI/CD with Jenkins and Docker.
 
 Main purpose:
 Allows user to make a list of ToDo tasks, check and uncheck them depending on the completion status. 
