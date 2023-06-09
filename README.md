@@ -23,3 +23,10 @@ From Docker:
  - After you shutdown the program, run command `xhost -localhost`
 
 Running X11 GUI apps on macOS [reference ](https://gist.github.com/paul-krohn/e45f96181b1cf5e536325d1bdee6c949)
+
+
+## Testing
+Mannually on local host:
+```
+python3 test.py
+```
